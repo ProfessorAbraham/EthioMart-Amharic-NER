@@ -1,0 +1,30 @@
+{
+  "os": "Linux-6.1.123+-x86_64-with-glibc2.35",
+  "python": "CPython 3.11.13",
+  "startedAt": "2025-06-22T17:07:39.040628Z",
+  "program": "Untitled6.ipynb",
+  "git": {
+    "remote": "https://ProfessorAbraham:@github.com/ProfessorAbraham/EthioMart-Amharic-NER.git",
+    "commit": "ca678fd225c141351e9db38a239184cdd3320ccb"
+  },
+  "email": "cherekatechnology@gmail.com",
+  "root": "/content/EthioMart-Amharic-NER",
+  "host": "68f36cbd141d",
+  "executable": "/usr/bin/python3",
+  "colab": "https://colab.research.google.com/notebook#fileId=1-UWbEwDogc047CcH3Lr10cquLB3ZrlyU",
+  "cpu_count": 1,
+  "cpu_count_logical": 2,
+  "disk": {
+    "/": {
+      "total": "115658190848",
+      "used": "45139570688"
+    }
+  },
+  "memory": {
+    "total": "13608370176"
+  },
+  "cpu": {
+    "count": 1,
+    "countLogical": 2
+  }
+}
