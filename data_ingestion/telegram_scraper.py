@@ -3,13 +3,11 @@ import csv
 import os
 from dotenv import load_dotenv
 
-# Load environment variables
 load_dotenv('.env')
-api_id = os.getenv('TG_API_ID')
+api_id = int(os.getenv('TG_API_ID'))
 api_hash = os.getenv('TG_API_HASH')
 phone = os.getenv('phone')
 
-# Create Telegram client
 client = TelegramClient('scraping_session', api_id, api_hash)
 
 async def scrape_channel(client, channel_username, writer, media_dir):
@@ -33,7 +31,8 @@ async def scrape_channel(client, channel_username, writer, media_dir):
         ])
 
 async def main():
-    await client.start()
+    # This will prompt for code & password if needed — works only locally!
+    await client.start(phone=phone)
 
     media_dir = 'photos'
     os.makedirs(media_dir, exist_ok=True)
