@@ -1,3 +1,3 @@
 # EthioMart Amharic NER Project
 
-A project to extract business entities from Amharic Telegram messages using LLMs.
+LLM-based NER for Amharic e-commerce data from Telegram.
